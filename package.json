@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --devtool source-map",
+    "watch": "webpack --devtool source-map --watch"
   },
   "repository": {
     "type": "git",
