@@ -1,0 +1,25 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtdykstra/restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtdykstra/restaurant/issues"
+  },
+  "homepage": "https://github.com/jtdykstra/restaurant#readme",
+  "devDependencies": {
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0"
+  }
+}
