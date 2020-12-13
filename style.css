@@ -1,0 +1,50 @@
+@import "reset.css";
+body {
+    font-family: 'Oxygen';
+}
+
+#header {
+    width: 100vw;
+    height: 20vh;
+    background-image: url("https://www.remotelands.com/travelogues/app/uploads/2018/08/shutterstock_761494024-1536x768.jpg");
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+/* css background opacity hack */
+#content::after {
+    content:"";
+    background-image: url("https://thumbs.dreamstime.com/b/bright-mexican-fastfood-seamless-pattern-tacos-blue-background-nice-spanish-fast-food-texture-textile-wallpaper-98027334.jpg");
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+
+p, h1 {
+    margin: 5vh 0 5vh 0;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+}
+
+#navigation [type=radio] {
+    display: none;
+}
+
+#navigation label {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+
